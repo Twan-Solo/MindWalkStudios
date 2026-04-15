@@ -2,7 +2,6 @@
 #if ENABLE_INPUT_SYSTEM 
 using UnityEngine.InputSystem;
 #endif
-
 /* Note: animations are called via the controller for both the character and capsule using animator null checks
  */
 
@@ -14,8 +13,10 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
+
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
+        public GameObject Player;
         public float MoveSpeed = 2.0f;
 
         [Tooltip("Sprint speed of the character in m/s")]
@@ -59,6 +60,11 @@ namespace StarterAssets
         [Tooltip("The radius of the grounded check. Should match the radius of the CharacterController")]
         public float GroundedRadius = 0.28f;
 
+
+        //Ethan Force ground check for painted walls
+        //public bool PaintedWallForceCheck = false;
+        public bool IsOnWall = false;
+
         [Tooltip("What layers the character uses as ground")]
         public LayerMask GroundLayers;
 
@@ -87,8 +93,9 @@ namespace StarterAssets
         private float _animationBlend;
         private float _targetRotation = 0.0f;
         private float _rotationVelocity;
-        private float _verticalVelocity;
+        public float _verticalVelocity;
         private float _terminalVelocity = 53.0f;
+
 
         // timeout deltatime
         private float _jumpTimeoutDelta;
@@ -137,6 +144,10 @@ namespace StarterAssets
 
         private void Start()
         {
+
+
+            //private PlayerStickToWall stickToWall;
+
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
 
             _hasAnimator = TryGetComponent(out _animator);
@@ -162,6 +173,7 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+            //Debug.Log(_verticalVelocity);
         }
 
         private void LateUpdate()
@@ -183,8 +195,10 @@ namespace StarterAssets
             // set sphere position, with offset
             Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset,
                 transform.position.z);
-            Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers,
-                QueryTriggerInteraction.Ignore);
+
+            Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
+
+
 
             // update animator if using character
             if (_hasAnimator)
@@ -282,9 +296,45 @@ namespace StarterAssets
             }
         }
 
+        //sticking to the wall
+        public void OnTriggerEnter(Collider other)
+        {
+            if (other.CompareTag("PaintedWall"))
+            {
+                //Gravity = 0;
+                _verticalVelocity = 0;
+            }
+        }
+        public void OnTriggerStay(Collider other)
+        {
+            if (other.CompareTag("PaintedWall"))
+            {
+                //Gravity = 0;
+                //_verticalVelocity = 0;
+                Grounded = true;
+                IsOnWall = true;
+
+            }
+        }
+        private void OnTriggerExit(Collider other)
+        {
+            if (other.CompareTag("PaintedWall"))
+            {
+                Gravity = -15;
+                IsOnWall = false;
+            }
+        }
+        
+        // For the bounce pad to make the player bounce
+        public void ApplyBounce(float force)
+        {
+            _verticalVelocity = force;
+        }
+
+
         private void JumpAndGravity()
         {
-            if (Grounded)
+            if (Grounded || IsOnWall)
             {
                 // reset the fall timeout timer
                 _fallTimeoutDelta = FallTimeout;
@@ -306,6 +356,7 @@ namespace StarterAssets
                 if (_input.jump && _jumpTimeoutDelta <= 0.0f)
                 {
                     // the square root of H * -2 * G = how much velocity needed to reach desired height
+
                     _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
 
                     // update animator if using character
@@ -345,8 +396,9 @@ namespace StarterAssets
             }
 
             // apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
-            if (_verticalVelocity < _terminalVelocity)
+            if (_verticalVelocity < _terminalVelocity && !IsOnWall)
             {
+
                 _verticalVelocity += Gravity * Time.deltaTime;
             }
         }
