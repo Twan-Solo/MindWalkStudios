@@ -133,20 +133,21 @@ public class PaintModeController : MonoBehaviour
             Debug.Log("Max count reached for " + currentType);
             return;
         }
-        if (!primitiveMap.ContainsKey(currentType))
-        {
-            Debug.LogError("No prefab found for " + currentType);
-            return;
-        }
         
         // Destroys the ghost when placing and respawns it after
         DestroyGhost();
         
         PrimitivePrefabEntry entry = primitiveMap[currentType];
-        Instantiate(entry.prefab, spawnAnchor.position, Quaternion.identity);
-        placedCounts[currentType]++;
-        Debug.Log("Placed " + currentType + " (" + placedCounts[currentType] + "/" + maxPerType + ")");
+        GameObject spawned =Instantiate(entry.prefab, spawnAnchor.position, Quaternion.identity);
         
+        MovingPlatform mover = spawned.GetComponent<MovingPlatform>();
+        if (mover != null)
+        {
+            Vector3 facing = transform.forward;
+            facing.y = 0f;
+            mover.Initialize(facing);
+        }
+        placedCounts[currentType]++;
         SpawnGhost();
     }
 }

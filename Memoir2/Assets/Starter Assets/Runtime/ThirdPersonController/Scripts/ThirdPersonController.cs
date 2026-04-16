@@ -332,6 +332,7 @@ namespace StarterAssets
         }
 
 
+
         private void JumpAndGravity()
         {
             if (Grounded || IsOnWall)
