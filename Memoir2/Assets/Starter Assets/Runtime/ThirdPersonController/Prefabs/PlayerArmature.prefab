@@ -1040,6 +1040,7 @@ GameObject:
   - component: {fileID: 5548259142530455236}
   - component: {fileID: -8105899364069279503}
   - component: {fileID: 6238515149126867093}
+  - component: {fileID: 2019948303036126877}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -1346,6 +1347,24 @@ MonoBehaviour:
   - type: 2
     prefab: {fileID: 6313524606571302771, guid: 37a9561bb2f1f4d4d9e6aaaf8ba42ce6, type: 3}
     ghostPrefab: {fileID: 6313524606571302771, guid: dc85a7cffface19449d8b1a8a4e42b6d, type: 3}
+--- !u!114 &2019948303036126877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416926081852918481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6adf0012ec91f4aa43aa7736eef8c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttack
+  attack: {fileID: 1120369429361536294, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  bulletPrefab: {fileID: 8608974790785134666, guid: 3b11b01536b087544ad1b46d762df79d, type: 3}
+  CameraTransform: {fileID: 0}
+  bulletSpawnPoint: {fileID: 0}
+  bulletSpeed: 5
+  rotationSpeed: 10
 --- !u!1 &4523139366846529165
 GameObject:
   m_ObjectHideFlags: 0
