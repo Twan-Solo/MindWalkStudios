@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Credits.unity
     guid: 3b9fe99422dffb944af73c034b832637
+  - enabled: 1
+    path: Assets/Scenes/Antoine_Test.unity
+    guid: 3808bc921871eae4e9771ddd39b3f2ee
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

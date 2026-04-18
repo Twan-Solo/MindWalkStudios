@@ -7,6 +7,11 @@ using UnityEngine.InputSystem;
 /// </summary>
 public class PaintModeController : MonoBehaviour
 {
+    //AS added 
+    public bool IsInPaintMode => inPaintMode;
+    public PaintPrimitiveType CurrentType => currentType; 
+    //
+
     [Header("Spawn Settings")]
     [SerializeField] private Transform spawnAnchor;
     [SerializeField] private int maxPerType = 5;
@@ -67,6 +72,7 @@ public class PaintModeController : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log("Paint Mode: " + inPaintMode);
         Keyboard keyboard = Keyboard.current;
         Mouse mouse = Mouse.current;
         if (keyboard == null || mouse == null)

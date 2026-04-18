@@ -14,6 +14,9 @@ public class PlayerData : MonoBehaviour
 {
     public static PlayerData Instance;
 
+    // ?? ADDED: Progress event
+    public static System.Action OnProgressChanged;
+
     [Header("Player Stats")]
     public int score;
     public GameObject heldObjectPrefab;
@@ -119,10 +122,11 @@ public class PlayerData : MonoBehaviour
         if (pieceIndex < 0 || pieceIndex >= 4) return;
 
         levels[levelIndex].piecesCollected[pieceIndex] = true;
+
         Debug.Log($"Level {levelIndex + 1}, Piece {pieceIndex + 1} collected!");
 
-        // Optional: notify hub portal
-        HubPortal.UpdatePortal(levelIndex);
+        // ?? CHANGED: replace hub call with event
+        OnProgressChanged?.Invoke();
     }
 
     public bool IsLevelComplete(int levelIndex)
@@ -135,6 +139,7 @@ public class PlayerData : MonoBehaviour
     {
         foreach (var level in levels)
             if (!level.IsComplete()) return false;
+
         return true;
     }
 
@@ -145,5 +150,8 @@ public class PlayerData : MonoBehaviour
                 levels[i].piecesCollected[j] = false;
 
         Debug.Log("Player progress reset.");
+
+        // Optional: notify UI reset
+        OnProgressChanged?.Invoke();
     }
 }
