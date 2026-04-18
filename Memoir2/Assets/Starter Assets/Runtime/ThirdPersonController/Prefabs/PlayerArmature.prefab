@@ -1042,6 +1042,7 @@ GameObject:
   - component: {fileID: 6238515149126867093}
   - component: {fileID: 2019948303036126877}
   - component: {fileID: 1041650631277290199}
+  - component: {fileID: 4302473240327362787}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -1371,11 +1372,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4416926081852918481}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aa656630e84c03240a2abab3c7b3be2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlatformRider
+--- !u!114 &4302473240327362787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416926081852918481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8950551d6656854418b28f1454c91d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlatformFollower
 --- !u!1 &4523139366846529165
 GameObject:
   m_ObjectHideFlags: 0
