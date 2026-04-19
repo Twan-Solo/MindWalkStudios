@@ -122,6 +122,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: puzzlepiece
       objectReference: {fileID: 0}
+    - target: {fileID: 2697298977053133074, guid: 0233c3acce1e2b344a47379e239531db, type: 3}
+      propertyPath: SizeModule.curve.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2697298977053133074, guid: 0233c3acce1e2b344a47379e239531db, type: 3}
+      propertyPath: SizeModule.curve.minScalar
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
