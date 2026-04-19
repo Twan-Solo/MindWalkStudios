@@ -1345,10 +1345,10 @@ MonoBehaviour:
     ghostPrefab: {fileID: 4704979629992406201, guid: 08168a6c2e6a4cb4195acdcae93274da, type: 3}
   - type: 1
     prefab: {fileID: 43244732372569424, guid: 9d97fc725457e3047b05f579037ff4b1, type: 3}
-    ghostPrefab: {fileID: 43244732372569424, guid: 14ce146a6912d0247a3ce65fcdf3d480, type: 3}
+    ghostPrefab: {fileID: 4925966185448924265, guid: 00c56a2008feef240900d2698605be2d, type: 3}
   - type: 2
     prefab: {fileID: 6313524606571302771, guid: 37a9561bb2f1f4d4d9e6aaaf8ba42ce6, type: 3}
-    ghostPrefab: {fileID: 6313524606571302771, guid: dc85a7cffface19449d8b1a8a4e42b6d, type: 3}
+    ghostPrefab: {fileID: 4499865309153460026, guid: 5636abcddf4916047a60a8841106e6e7, type: 3}
 --- !u!114 &2019948303036126877
 MonoBehaviour:
   m_ObjectHideFlags: 0
