@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &311431383524955757
+--- !u!1001 &223453819899640913
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -9,16 +9,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.653275
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.418
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.121711
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34,11 +46,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -49,15 +61,57 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
+      propertyPath: m_RayTracingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: f445917442f65c44c92571c6e4494387, type: 2}
     - target: {fileID: 919132149155446097, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
       propertyPath: m_Name
-      value: puzzlepiece 1
+      value: puzzlepiece
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8992025406285768288}
   m_SourcePrefab: {fileID: 100100000, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
+--- !u!1 &1141864546485354752 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e91fb387da85886408e43ae0c3fbf27d, type: 3}
+  m_PrefabInstance: {fileID: 223453819899640913}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8992025406285768288
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141864546485354752}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 379f8c215841e914ebdfe991d29b1e8d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
