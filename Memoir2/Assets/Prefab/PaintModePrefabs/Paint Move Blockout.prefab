@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2286728684956975107}
   - component: {fileID: -3125899514391871831}
   - component: {fileID: 763072063110739398}
+  - component: {fileID: -7898609793305535259}
   m_Layer: 0
   m_Name: Paint Move Blockout
   m_TagString: Untagged
@@ -148,6 +149,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 3.1190872, z: 1}
   m_Center: {x: 0, y: 1.0673294, z: 0}
+--- !u!114 &-7898609793305535259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6313524606571302771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12371488b97a87488d40a25fbcde171, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlatformLifetime
+  lifetime: 5
 --- !u!1001 &4248456241703400030
 PrefabInstance:
   m_ObjectHideFlags: 0
