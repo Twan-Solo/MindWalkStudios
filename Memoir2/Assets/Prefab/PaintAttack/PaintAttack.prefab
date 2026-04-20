@@ -154,3 +154,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5279eaa46c6edf9499adbcfda8ff1748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PaintAttack
+  bulletSpeed: 1
