@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1a6f58d0f9095fd4797931f6bf7e296b
+guid: f567de95b3c79064fb9f229c57950d6d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -31,7 +31,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: clawDown
+      name: clawSwing
       takeName: Take 001
       internalID: 1827226128182048838
       firstFrame: 0
