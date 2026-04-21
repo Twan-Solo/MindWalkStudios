@@ -6,6 +6,7 @@ public class MainMenuController : MonoBehaviour
     [Header("UI Buttons")]
     public Button playButton;
     public Button quitButton;
+    public Button helpButton;
 
     [Header("Fade Transition")]
     public FadeTransition fadeTransition; // assign in inspector
