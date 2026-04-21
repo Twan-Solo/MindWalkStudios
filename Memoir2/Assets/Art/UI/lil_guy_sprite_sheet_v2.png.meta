@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 907360d4a260f9a40a2786c27ac5573d
+guid: d779c7d990fc2124c973fff7863776cb
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lil_guy_sprite_sheet_f1
+      name: lil_guy_sprite_sheet_v2_f1
       rect:
         serializedVersion: 2
         x: 0
@@ -112,14 +112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c645bca5c8fb6d84c8f5f6b12bfd4f4a
-      internalID: -1408204482
+      spriteID: f40a07fae524aa94d9b9d34314ad9f3a
+      internalID: -1815326059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lil_guy_sprite_sheet_f2
+      name: lil_guy_sprite_sheet_v2_f2
       rect:
         serializedVersion: 2
         x: 512
@@ -134,8 +134,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae5f1c7e09b1b9f41b0af8024b649973
-      internalID: 2074511371
+      spriteID: 684722a8ae566b34384d4480997f87b0
+      internalID: 106112114
       vertices: []
       indices: 
       edges: []
@@ -144,7 +144,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fe71bb6fec0c5994bb74ba18c71e49f2
+    spriteID: 57f6a1dc71f262748af598c9d389ae93
     internalID: 0
     vertices: []
     indices: 
@@ -156,8 +156,8 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      lil_guy_sprite_sheet_f1: -1408204482
-      lil_guy_sprite_sheet_f2: 2074511371
+      lil_guy_sprite_sheet_v2_f1: -1815326059
+      lil_guy_sprite_sheet_v2_f2: 106112114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
