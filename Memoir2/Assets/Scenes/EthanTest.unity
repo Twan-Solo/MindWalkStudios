@@ -544,8 +544,6 @@ GameObject:
   - component: {fileID: 677219840}
   - component: {fileID: 677219839}
   - component: {fileID: 677219838}
-  - component: {fileID: 677219843}
-  - component: {fileID: 677219842}
   m_Layer: 0
   m_Name: plane
   m_TagString: Untagged
@@ -646,46 +644,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &677219842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 677219837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3e05ad22073e0144abf954f9eecf7b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CactusRising
-  blockerMovement: {fileID: 0}
-  blockerGroup: {fileID: 0}
-  blockerHp: {fileID: 0}
-  duration: 0
-  newX: 0
-  newY: 0
-  newZ: 0
-  blockerScript: {fileID: 0}
---- !u!114 &677219843
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 677219837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3e05ad22073e0144abf954f9eecf7b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CactusRising
-  blockerMovement: {fileID: 0}
-  blockerGroup: {fileID: 0}
-  blockerHp: {fileID: 0}
-  duration: 0
-  newX: 0
-  newY: 0
-  newZ: 0
-  blockerScript: {fileID: 0}
 --- !u!1001 &899309761
 PrefabInstance:
   m_ObjectHideFlags: 0
