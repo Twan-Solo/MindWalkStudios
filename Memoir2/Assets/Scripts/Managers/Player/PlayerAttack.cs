@@ -14,7 +14,7 @@ public class PlayerAttack : MonoBehaviour
     public void Start()
     {
         //assign freshly spawn playerArmature to script
-        player = GameObject.Find("PlayerArmature(Clone)");
+        player = GameObject.Find("FirePoint");
     }
 
     private void Update()

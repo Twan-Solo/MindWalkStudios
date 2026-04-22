@@ -9,6 +9,8 @@ TagManager:
   - PaintableWall
   - PaintAttack
   - PaintedWall
+  - BlockerTrigger
+  - BlockerHP
   layers:
   - Default
   - TransparentFX

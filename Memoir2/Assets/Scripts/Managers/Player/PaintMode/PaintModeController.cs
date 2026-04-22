@@ -72,7 +72,7 @@ public class PaintModeController : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log("Paint Mode: " + inPaintMode);
+        //Debug.Log("Paint Mode: " + inPaintMode);
         Keyboard keyboard = Keyboard.current;
         Mouse mouse = Mouse.current;
         if (keyboard == null || mouse == null)

@@ -21,10 +21,11 @@ public class PaintAttack : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        else if(other.CompareTag("Player")){
+        else if (other.CompareTag("Player")) {
             return;
-        }
-        else
+        } else if (other.CompareTag("BlockerTrigger")) {
+            return;
+            }else
         {
             Destroy(gameObject);
         }
