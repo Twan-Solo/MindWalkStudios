@@ -1,18 +1,22 @@
 using System.Collections;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
-public class CactusRising : MonoBehaviour
+public class BlockerPositionChange : MonoBehaviour
 {
-    public GameObject cactusWall;
-    public GameObject cactusGroup;
+    public GameObject blockerWall;
+    public GameObject BlockerGroup;
     public float duration;
     private Vector3 newPos;
     private Vector3 prevPos;
+    public float newX;
+    public float newY;
+    public float newZ;
     private int lockPos = 0;
     void Awake()
     {
-        newPos = new Vector3(cactusWall.transform.position.x, 0, cactusWall.transform.position.z);
-        prevPos = new Vector3(cactusWall.transform.position.x, cactusWall.transform.position.y, cactusWall.transform.position.z);
+        newPos = new Vector3(blockerWall.transform.position.x + newX, blockerWall.transform.position.y + newY, blockerWall.transform.position.z + newZ);
+        prevPos = new Vector3(blockerWall.transform.position.x, blockerWall.transform.position.y, blockerWall.transform.position.z);
     }
     void OnTriggerEnter(Collider other)
     {
@@ -22,8 +26,13 @@ public class CactusRising : MonoBehaviour
             //if it hasn't run before, move wall into place.
             if (lockPos == 0)
             {
+                
                 StartCoroutine(moveSlowly());
             }
+        }
+        else
+        {
+            Debug.Log("Something Happened.");
         }
     }
     // uses lerp to slowly move the wall from the old position to the new position
@@ -34,12 +43,12 @@ public class CactusRising : MonoBehaviour
 
         while (elapsed < duration) 
         {
-            cactusWall.transform.position = Vector3.Lerp(prevPos, newPos, (elapsed / duration));
+            blockerWall.transform.position = Vector3.Lerp(prevPos, newPos, (elapsed / duration));
             elapsed += Time.deltaTime;
             
             yield return null;
         }
-        cactusWall.transform.position = newPos;
+        blockerWall.transform.position = newPos;
         lockPos = 1;
 
     }
