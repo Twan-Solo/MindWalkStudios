@@ -10,6 +10,7 @@ TagManager:
   - PaintAttack
   - PaintedWall
   - BlockerTrigger
+  - BlockerHP
   layers:
   - Default
   - TransparentFX

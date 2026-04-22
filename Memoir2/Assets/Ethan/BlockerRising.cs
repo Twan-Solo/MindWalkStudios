@@ -1,11 +1,13 @@
 using System.Collections;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 public class BlockerPositionChange : MonoBehaviour
 {
-    public GameObject blockerWall;
-    public GameObject BlockerGroup;
+    public GameObject blockerMovement;
+    public GameObject blockerGroup;
+    public GameObject blockerHp;
     public float duration;
     private Vector3 newPos;
     private Vector3 prevPos;
@@ -13,10 +15,20 @@ public class BlockerPositionChange : MonoBehaviour
     public float newY;
     public float newZ;
     private int lockPos = 0;
+    public BlockerHP blockerScript;
+    
     void Awake()
     {
-        newPos = new Vector3(blockerWall.transform.position.x + newX, blockerWall.transform.position.y + newY, blockerWall.transform.position.z + newZ);
-        prevPos = new Vector3(blockerWall.transform.position.x, blockerWall.transform.position.y, blockerWall.transform.position.z);
+        newPos = new Vector3(blockerMovement.transform.position.x + newX, blockerMovement.transform.position.y + newY, blockerMovement.transform.position.z + newZ);
+        prevPos = new Vector3(blockerMovement.transform.position.x, blockerMovement.transform.position.y, blockerMovement.transform.position.z);
+    }
+
+    public void Update()
+    {
+        if (blockerScript.blockerHP == 0)
+        {
+            StartCoroutine(returnSlowly());
+        }
     }
     void OnTriggerEnter(Collider other)
     {
@@ -43,14 +55,29 @@ public class BlockerPositionChange : MonoBehaviour
 
         while (elapsed < duration) 
         {
-            blockerWall.transform.position = Vector3.Lerp(prevPos, newPos, (elapsed / duration));
+            blockerMovement.transform.position = Vector3.Lerp(prevPos, newPos, (elapsed / duration));
             elapsed += Time.deltaTime;
             
             yield return null;
         }
-        blockerWall.transform.position = newPos;
+        blockerMovement.transform.position = newPos;
         lockPos = 1;
 
     }
+    IEnumerator returnSlowly()
+    {
+        Vector3 startPos = transform.position;
+        float elapsed = 0f;
 
+        while (elapsed < duration)
+        {
+            blockerMovement.transform.position = Vector3.Lerp(newPos, prevPos, (elapsed / duration));
+            elapsed += Time.deltaTime;
+
+            yield return null;
+        }
+        blockerMovement.transform.position = prevPos;
+        lockPos = 1;
+
+    }
 }
