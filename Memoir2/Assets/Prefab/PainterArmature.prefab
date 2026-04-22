@@ -3206,7 +3206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LookSensitivity: {x: 5, y: 5}
+  LookSensitivity: {x: 100, y: 100}
   Player: {fileID: 5882996473591967506}
   MoveSpeed: 6
   SprintSpeed: 5.335
