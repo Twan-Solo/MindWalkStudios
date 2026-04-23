@@ -99014,6 +99014,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 309484706}
     m_Modifications:
+    - target: {fileID: 2929184733488714927, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 77eea2f44882c204f972aab573e34691, type: 2}
     - target: {fileID: 3721787000386762106, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
       propertyPath: m_Name
       value: sm_soda

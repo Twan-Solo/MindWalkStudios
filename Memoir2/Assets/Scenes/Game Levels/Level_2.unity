@@ -5457,6 +5457,7 @@ Transform:
   - {fileID: 285584627}
   - {fileID: 950748094}
   - {fileID: 1416344204}
+  - {fileID: 3521743719602633956}
   m_Father: {fileID: 1821080681}
   m_LocalEulerAnglesHint: {x: 0, y: -43.124, z: 0}
 --- !u!1001 &397441739
@@ -16615,7 +16616,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3721787000386762106, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
       propertyPath: m_Name
-      value: sm_soda (4)
+      value: jazz cup (4)
       objectReference: {fileID: 0}
     - target: {fileID: 4102112004297748416, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
       propertyPath: m_LocalScale.x
@@ -23357,7 +23358,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3721787000386762106, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
       propertyPath: m_Name
-      value: sm_soda (1)
+      value: jazz cup (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4102112004297748416, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25026,7 +25027,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3721787000386762106, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
       propertyPath: m_Name
-      value: sm_soda (2)
+      value: jazz cup (3)
       objectReference: {fileID: 0}
     - target: {fileID: 4102112004297748416, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25416,7 +25417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4872992002576393851, guid: f4fe8c76a7ef2be46a21003033f3aac8, type: 3}
       propertyPath: m_Size.x
-      value: 7.972383
+      value: 7.9723835
       objectReference: {fileID: 0}
     - target: {fileID: 4872992002576393851, guid: f4fe8c76a7ef2be46a21003033f3aac8, type: 3}
       propertyPath: m_Size.y
@@ -25424,7 +25425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4872992002576393851, guid: f4fe8c76a7ef2be46a21003033f3aac8, type: 3}
       propertyPath: m_Size.z
-      value: 2.3083518
+      value: 1.2260514
       objectReference: {fileID: 0}
     - target: {fileID: 4872992002576393851, guid: f4fe8c76a7ef2be46a21003033f3aac8, type: 3}
       propertyPath: m_Center.x
@@ -25432,11 +25433,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4872992002576393851, guid: f4fe8c76a7ef2be46a21003033f3aac8, type: 3}
       propertyPath: m_Center.y
-      value: 7.603032
+      value: 7.603031
       objectReference: {fileID: 0}
     - target: {fileID: 4872992002576393851, guid: f4fe8c76a7ef2be46a21003033f3aac8, type: 3}
       propertyPath: m_Center.z
-      value: 5.450791
+      value: 6.327548
       objectReference: {fileID: 0}
     - target: {fileID: 5302374666319761070, guid: f4fe8c76a7ef2be46a21003033f3aac8, type: 3}
       propertyPath: m_LocalScale.x
@@ -25949,7 +25950,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3721787000386762106, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
       propertyPath: m_Name
-      value: sm_soda (3)
+      value: jazz cup (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4102112004297748416, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29478,6 +29479,101 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9227372087635328, guid: 97d87e22612c133448fc4c808b7562a3, type: 3}
   m_PrefabInstance: {fileID: 3009155360286995233}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3521743719602633955
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 393566388}
+    m_Modifications:
+    - target: {fileID: 2597863416668211098, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_Size.y
+      value: 0.24080966
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597863416668211098, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_Center.x
+      value: 0.0009869753
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597863416668211098, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_Center.y
+      value: 0.11824509
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597863416668211098, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_Center.z
+      value: -0.00005338983
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581027502522128425, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_Name
+      value: soda!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.97375906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.97375894
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.97375906
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5893633
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.96309
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.4012377
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9770673
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.21293072
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -18.536
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4521599124265099366, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4521599124265099366, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+--- !u!4 &3521743719602633956 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4249582920971059859, guid: a3c7301b73ef9a243b568d31a41b9fa9, type: 3}
+  m_PrefabInstance: {fileID: 3521743719602633955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5920776898381615234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29488,7 +29584,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3721787000386762106, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
       propertyPath: m_Name
-      value: sm_soda
+      value: jazz cup
       objectReference: {fileID: 0}
     - target: {fileID: 4102112004297748416, guid: 73ed79dcc43283f4fb7f59081f43f9ac, type: 3}
       propertyPath: m_LocalPosition.x
