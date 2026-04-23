@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 823d40be1487eae498b2708d761e533d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.47741544
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 823d40be1487eae498b2708d761e533d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 823d40be1487eae498b2708d761e533d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.739
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 823d40be1487eae498b2708d761e533d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -54,7 +54,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 9dca42dd40d5acd428433994def63270, type: 2}
     - target: {fileID: 919132149155446097, guid: 823d40be1487eae498b2708d761e533d, type: 3}
       propertyPath: m_Name
-      value: sm_stickyplatform
+      value: sm_stickyplatformPrefab
       objectReference: {fileID: 0}
     - target: {fileID: 2429932319346687560, guid: 823d40be1487eae498b2708d761e533d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
