@@ -20670,6 +20670,10 @@ PrefabInstance:
       value: LevelMusic
       objectReference: {fileID: 0}
     - target: {fileID: 7018423903542967696, guid: 28b3879dda13e7341a6afebc67dd7475, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7018423903542967696, guid: 28b3879dda13e7341a6afebc67dd7475, type: 3}
       propertyPath: m_Resource
       value: 
       objectReference: {fileID: 8300000, guid: 0fb6b377d0f73ab41b443c4d20acca48, type: 3}
@@ -101811,6 +101815,10 @@ PrefabInstance:
     - target: {fileID: 7214829056382349156, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7943436542008628031, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: mainMenuScene
+      value: Hub
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
