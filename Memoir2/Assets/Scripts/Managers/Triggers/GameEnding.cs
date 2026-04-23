@@ -5,7 +5,8 @@ using System.Collections;
 public class GameEnding : MonoBehaviour
 {
     [SerializeField] private string creditsSceneName = "Credits";
-    [SerializeField] private float transitionDelay = 0.5f;
+    [SerializeField] private float transitionDelay = 1f;
+    [SerializeField] private FadeTransition fadeTransition;
 
     private bool m_IsEnding = false;
 
@@ -20,18 +21,23 @@ public class GameEnding : MonoBehaviour
 
     private IEnumerator EndGame()
     {
-        // Hide & destroy player
+        // STOP PLAYER INPUT / ACTIVITY (NOT DESTROY)
         if (PlayerData.Instance != null)
         {
             PlayerData.Instance.gameObject.SetActive(false);
-            Destroy(PlayerData.Instance.gameObject);
-            PlayerData.Instance = null;
         }
 
         yield return new WaitForSeconds(transitionDelay);
 
-        // Load Credits scene instead of Main Menu
-        SceneManager.LoadScene(creditsSceneName);
+        // FADE FIRST (if available)
+        if (fadeTransition != null)
+        {
+            fadeTransition.FadeToScene(creditsSceneName);
+        }
+        else
+        {
+            SceneManager.LoadScene(creditsSceneName);
+        }
     }
 }
 

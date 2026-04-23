@@ -1,21 +1,28 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.InputSystem;
 
 [System.Serializable]
 public class LevelProgress
 {
-    public bool[] piecesCollected = new bool[4]; // 4 pieces per level
-
-    public bool IsComplete() => System.Array.TrueForAll(piecesCollected, p => p);
+    public bool[] piecesCollected = new bool[4];
+    public bool IsComplete() => Array.TrueForAll(piecesCollected, p => p);
 }
 
 public class PlayerData : MonoBehaviour
 {
     public static PlayerData Instance;
 
-    // ?? ADDED: Progress event
-    public static System.Action OnProgressChanged;
+    public static Action OnProgressChanged;
+
+    public static void EnsureExists()
+    {
+        if (Instance == null)
+        {
+            GameObject obj = new GameObject("PlayerData");
+            obj.AddComponent<PlayerData>();
+        }
+    }
 
     [Header("Player Stats")]
     public int score;
@@ -31,35 +38,40 @@ public class PlayerData : MonoBehaviour
 
     [Header("Death Settings")]
     public string mainMenuSceneName = "MainMenu";
-    public bool destroyPlayerOnDeath = true;
 
     [Header("Death Screen")]
-    public AudioClip deathMusic; // Optional
+    public AudioClip deathMusic;
 
     [Header("Progression")]
-    public LevelProgress[] levels = new LevelProgress[3]; // 3 playable levels
+    public LevelProgress[] levels = new LevelProgress[3];
 
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
-            currentHealth = maxHealth;
-
-            // Initialize levels if null
-            for (int i = 0; i < levels.Length; i++)
-                if (levels[i] == null)
-                    levels[i] = new LevelProgress();
-        }
-        else
+        if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+
+        currentHealth = maxHealth;
+
+        InitializeLevels();
+    }
+
+    void InitializeLevels()
+    {
+        for (int i = 0; i < levels.Length; i++)
+        {
+            if (levels[i] == null)
+                levels[i] = new LevelProgress();
         }
     }
 
     // ------------------------------
-    // Health Management
+    // HEALTH
     // ------------------------------
 
     public int GetCurrentHealth() => currentHealth;
@@ -67,6 +79,7 @@ public class PlayerData : MonoBehaviour
     public void TakeDamage(int damageAmount)
     {
         if (Time.time < lastDamageTime + damageCooldown) return;
+
         lastDamageTime = Time.time;
 
         currentHealth -= damageAmount;
@@ -82,6 +95,7 @@ public class PlayerData : MonoBehaviour
     public void Heal(int healAmount)
     {
         currentHealth += healAmount;
+
         if (currentHealth > maxHealth)
             currentHealth = maxHealth;
 
@@ -89,15 +103,11 @@ public class PlayerData : MonoBehaviour
             HealthCounter.Instance.UpdateHealthDisplay();
     }
 
-    // ------------------------------
-    // Death Handling
-    // ------------------------------
-
-    private void HandleDeath()
+    void HandleDeath()
     {
         Debug.Log("Player has died!");
 
-        DeathScreen deathScreen = Object.FindAnyObjectByType<DeathScreen>();
+        DeathScreen deathScreen = UnityEngine.Object.FindAnyObjectByType<DeathScreen>();
 
         if (deathScreen != null)
         {
@@ -113,7 +123,7 @@ public class PlayerData : MonoBehaviour
     }
 
     // ------------------------------
-    // Progression System
+    // PROGRESSION
     // ------------------------------
 
     public void CollectPiece(int levelIndex, int pieceIndex)
@@ -123,9 +133,6 @@ public class PlayerData : MonoBehaviour
 
         levels[levelIndex].piecesCollected[pieceIndex] = true;
 
-        Debug.Log($"Level {levelIndex + 1}, Piece {pieceIndex + 1} collected!");
-
-        // ?? CHANGED: replace hub call with event
         OnProgressChanged?.Invoke();
     }
 
@@ -143,15 +150,25 @@ public class PlayerData : MonoBehaviour
         return true;
     }
 
-    public void ResetProgress()
+    // ------------------------------
+    // RESET
+    // ------------------------------
+
+    public void ResetAllProgress()
     {
+        score = 0;
+        currentHealth = maxHealth;
+
         for (int i = 0; i < levels.Length; i++)
+        {
             for (int j = 0; j < levels[i].piecesCollected.Length; j++)
+            {
                 levels[i].piecesCollected[j] = false;
+            }
+        }
 
-        Debug.Log("Player progress reset.");
+        Debug.Log("FULL GAME RESET");
 
-        // Optional: notify UI reset
         OnProgressChanged?.Invoke();
     }
 }
