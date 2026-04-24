@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using UnityEngine.InputSystem;
 
 public class GameEnding : MonoBehaviour
 {
@@ -8,28 +9,45 @@ public class GameEnding : MonoBehaviour
     [SerializeField] private float transitionDelay = 1f;
     [SerializeField] private FadeTransition fadeTransition;
 
-    private bool m_IsEnding = false;
+    private bool isEnding = false;
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !m_IsEnding)
+        if (other.CompareTag("Player") && !isEnding)
         {
-            m_IsEnding = true;
+            isEnding = true;
             StartCoroutine(EndGame());
         }
     }
 
     private IEnumerator EndGame()
     {
-        // STOP PLAYER INPUT / ACTIVITY (NOT DESTROY)
-        if (PlayerData.Instance != null)
+        Debug.Log("Game Ending Triggered");
+
+        // -------------------------
+        // STOP GAMEPLAY INPUT CLEANLY
+        // -------------------------
+
+        // Disable player input system safely
+        PlayerInput playerInput = FindAnyObjectByType<PlayerInput>();
+        if (playerInput != null)
         {
-            PlayerData.Instance.gameObject.SetActive(false);
+            playerInput.enabled = false;
         }
+
+        // Unlock cursor BEFORE leaving scene
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        // Ensure time is normal (prevents weird UI bugs)
+        Time.timeScale = 1f;
 
         yield return new WaitForSeconds(transitionDelay);
 
-        // FADE FIRST (if available)
+        // -------------------------
+        // LOAD CREDITS
+        // -------------------------
+
         if (fadeTransition != null)
         {
             fadeTransition.FadeToScene(creditsSceneName);

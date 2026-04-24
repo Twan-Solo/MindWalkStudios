@@ -9,9 +9,23 @@ public class CreditsMenu : MonoBehaviour
     [Header("Fade Transition (Optional)")]
     public FadeTransition fadeTransition;
 
-    // Called by button
+    private void Start()
+    {
+        // FORCE CURSOR ON FOR CREDITS
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        Time.timeScale = 1f;
+    }
+
     public void ReturnToMainMenu()
     {
+        // extra safety in case anything locked it
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        Time.timeScale = 1f;
+
         if (fadeTransition != null)
         {
             fadeTransition.FadeToScene(mainMenuSceneName);

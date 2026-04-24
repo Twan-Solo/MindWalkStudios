@@ -834,7 +834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5272407691487844757, guid: 1478db5670211344a90ab15c468a97d3, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5808164275540850637, guid: 1478db5670211344a90ab15c468a97d3, type: 3}
       propertyPath: m_text
@@ -1275,13 +1275,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 246024526110569182, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: fadeImage
+      value: 
+      objectReference: {fileID: 1911488500}
     - target: {fileID: 705517597649593455, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
     - target: {fileID: 705517597649593455, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3816466834035584691, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_Pivot.x
@@ -1368,6 +1372,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+--- !u!114 &1911488500 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3813540556617266229, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+  m_PrefabInstance: {fileID: 1911488499}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &2468338479244259758
 PrefabInstance:
   m_ObjectHideFlags: 0

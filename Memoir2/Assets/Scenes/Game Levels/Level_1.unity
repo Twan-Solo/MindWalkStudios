@@ -47013,6 +47013,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &842323435 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3665992704376191796, guid: 1478db5670211344a90ab15c468a97d3, type: 3}
+  m_PrefabInstance: {fileID: 842323431}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &848102500
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53282,6 +53293,78 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937546834}
   m_Mesh: {fileID: 7535803439391131454, guid: c6a55ba99e9e99d41b7eef123e311a43, type: 3}
+--- !u!1001 &939474770
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7874915839773284669, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_Name
+      value: FadeSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022747082557417553, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: fadeImage
+      value: 
+      objectReference: {fileID: 842323435}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1463.5679
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1937.0498
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+--- !u!114 &939474771 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8022747082557417553, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+  m_PrefabInstance: {fileID: 939474770}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d57847f4f720548ad8c4ec5f6367df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FadeTransition
 --- !u!1001 &939706031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101810,17 +101893,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
---- !u!114 &1911488500 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 246024526110569182, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
-  m_PrefabInstance: {fileID: 1911488499}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71d57847f4f720548ad8c4ec5f6367df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FadeTransition
 --- !u!4 &1911888215 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6049884820279044078, guid: a9deecf4d641648429820af70dd189d6, type: 3}
@@ -105734,7 +105806,7 @@ PrefabInstance:
     - target: {fileID: 6888444005341551068, guid: d446fc4e96c30024e9294e96c38c530d, type: 3}
       propertyPath: fadeTransition
       value: 
-      objectReference: {fileID: 1911488500}
+      objectReference: {fileID: 939474771}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -105957,10 +106029,10 @@ SceneRoots:
   - {fileID: 505265493}
   - {fileID: 939706031}
   - {fileID: 842323431}
+  - {fileID: 1911488499}
   - {fileID: 4423273548148703535}
   - {fileID: 19058041}
   - {fileID: 1057130446}
-  - {fileID: 1911488499}
   - {fileID: 49300295}
   - {fileID: 600267582}
   - {fileID: 1650642720}
@@ -105971,3 +106043,4 @@ SceneRoots:
   - {fileID: 1135038428}
   - {fileID: 355406008}
   - {fileID: 1705026069072848167}
+  - {fileID: 939474770}

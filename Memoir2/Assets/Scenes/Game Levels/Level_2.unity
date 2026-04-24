@@ -4508,6 +4508,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3657441252217038975, guid: 7c273dbad93de204fa118968e846de81, type: 3}
   m_PrefabInstance: {fileID: 296492372}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &297229166 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3813540556617266229, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+  m_PrefabInstance: {fileID: 1911488499}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &302574338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5460,6 +5471,17 @@ Transform:
   - {fileID: 3521743719602633956}
   m_Father: {fileID: 1821080681}
   m_LocalEulerAnglesHint: {x: 0, y: -43.124, z: 0}
+--- !u!114 &394062309 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3665992704376191796, guid: 1478db5670211344a90ab15c468a97d3, type: 3}
+  m_PrefabInstance: {fileID: 728919836}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
 --- !u!1001 &397441739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8063,7 +8085,6 @@ Transform:
   m_Children:
   - {fileID: 1233068722}
   - {fileID: 1197150827}
-  - {fileID: 1733331449}
   - {fileID: 749149489}
   - {fileID: 206565720}
   m_Father: {fileID: 0}
@@ -16148,7 +16169,7 @@ PrefabInstance:
     - target: {fileID: 6888444005341551068, guid: d446fc4e96c30024e9294e96c38c530d, type: 3}
       propertyPath: fadeTransition
       value: 
-      objectReference: {fileID: 1911488500}
+      objectReference: {fileID: 1328587970}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18762,6 +18783,78 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2840081267734911886, guid: 703cb319f709b6f429130b8a383bcb4c, type: 3}
+--- !u!1001 &1328587969
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7874915839773284669, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_Name
+      value: FadeSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022747082557417553, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: fadeImage
+      value: 
+      objectReference: {fileID: 394062309}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1463.5679
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1937.0498
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714798928272936531, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+--- !u!114 &1328587970 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8022747082557417553, guid: 14089c7e70e95614a8a8904146d9b6cf, type: 3}
+  m_PrefabInstance: {fileID: 1328587969}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d57847f4f720548ad8c4ec5f6367df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FadeTransition
 --- !u!1001 &1332437304
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24182,11 +24275,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5082943926951622884, guid: e9233a26d1a181b42a38d164b0facf2d, type: 3}
---- !u!224 &1733331449 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 3816466834035584691, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
-  m_PrefabInstance: {fileID: 1911488499}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1735911267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26364,15 +26452,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 543612035}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 246024526110569182, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: fadeImage
+      value: 
+      objectReference: {fileID: 297229166}
     - target: {fileID: 705517597649593455, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
     - target: {fileID: 705517597649593455, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3816466834035584691, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_Pivot.x
@@ -26424,15 +26516,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3816466834035584691, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3816466834035584691, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3816466834035584691, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3816466834035584691, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -26459,17 +26551,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
---- !u!114 &1911488500 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 246024526110569182, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
-  m_PrefabInstance: {fileID: 1911488499}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71d57847f4f720548ad8c4ec5f6367df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::FadeTransition
 --- !u!1001 &1912655707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29781,6 +29862,7 @@ SceneRoots:
   - {fileID: 505265493}
   - {fileID: 1563108591}
   - {fileID: 543612035}
+  - {fileID: 1911488499}
   - {fileID: 1650642720}
   - {fileID: 1124579057}
   - {fileID: 49300295}
@@ -29791,3 +29873,4 @@ SceneRoots:
   - {fileID: 835981479}
   - {fileID: 382652113}
   - {fileID: 182492849}
+  - {fileID: 1328587969}
