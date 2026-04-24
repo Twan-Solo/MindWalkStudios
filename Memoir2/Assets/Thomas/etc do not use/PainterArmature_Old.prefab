@@ -3120,7 +3120,7 @@ GameObject:
   - component: {fileID: 4887603747772834584}
   - component: {fileID: 6633496536830004300}
   m_Layer: 8
-  m_Name: PainterArmature
+  m_Name: PainterArmature_Old
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
