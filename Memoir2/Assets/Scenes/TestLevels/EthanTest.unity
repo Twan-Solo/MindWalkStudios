@@ -652,9 +652,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 302880672846370691, guid: f4fe8c76a7ef2be46a21003033f3aac8, type: 3}
+      propertyPath: m_TagString
+      value: BlockerTrigger
+      objectReference: {fileID: 0}
     - target: {fileID: 2619085519090271473, guid: f4fe8c76a7ef2be46a21003033f3aac8, type: 3}
       propertyPath: m_Name
       value: BlockerGroup
+      objectReference: {fileID: 0}
+    - target: {fileID: 2619085519090271473, guid: f4fe8c76a7ef2be46a21003033f3aac8, type: 3}
+      propertyPath: m_TagString
+      value: BlockerTrigger
       objectReference: {fileID: 0}
     - target: {fileID: 5302374666319761070, guid: f4fe8c76a7ef2be46a21003033f3aac8, type: 3}
       propertyPath: m_LocalPosition.x

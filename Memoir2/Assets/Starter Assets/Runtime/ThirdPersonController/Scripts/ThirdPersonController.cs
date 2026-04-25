@@ -14,6 +14,7 @@ namespace StarterAssets
     public class ThirdPersonController : MonoBehaviour
     {
         public Vector2 LookSensitivity;
+        public float controllerSensitivityMultiplier;
 
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
@@ -170,8 +171,18 @@ namespace StarterAssets
         private void Update()
         {
             _hasAnimator = TryGetComponent(out _animator);
+            var device = _input;
+            Debug.Log($"Device: {_playerInput.currentControlScheme}");
+            if (_playerInput.currentControlScheme == "Gamepad")
+            {
+                controllerSensitivityMultiplier = 15f;
+            }
+            else
+            {
+                controllerSensitivityMultiplier = 1f;
+            }
 
-            JumpAndGravity();
+                JumpAndGravity();
             GroundedCheck();
             Move();
             //Debug.Log(_verticalVelocity);
@@ -208,6 +219,8 @@ namespace StarterAssets
             }
         }
 
+
+
         private void CameraRotation()
         {
             // if there is an input and camera position is not fixed
@@ -216,8 +229,8 @@ namespace StarterAssets
                 //Don't multiply mouse input by Time.deltaTime;
                 float deltaTimeMultiplier = IsCurrentDeviceMouse ? 1.0f : Time.deltaTime;
 
-                _cinemachineTargetYaw += _input.look.x * deltaTimeMultiplier * LookSensitivity.x;
-                _cinemachineTargetPitch -= _input.look.y * deltaTimeMultiplier * LookSensitivity.y;
+                _cinemachineTargetYaw += (_input.look.x * deltaTimeMultiplier * LookSensitivity.x) * controllerSensitivityMultiplier;
+                _cinemachineTargetPitch -= (_input.look.y * deltaTimeMultiplier * LookSensitivity.y) * controllerSensitivityMultiplier;
             }
 
             // clamp our rotations so our values are limited 360 degrees
