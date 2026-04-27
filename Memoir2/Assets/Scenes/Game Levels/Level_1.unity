@@ -95689,7 +95689,7 @@ PrefabInstance:
     - target: {fileID: 1481991856050767882, guid: dd6fb696a5b02f94aa2b40210ce27122, type: 3}
       propertyPath: playerPrefab
       value: 
-      objectReference: {fileID: 4404400903390166556, guid: 7bd53aaee9d00044b8512619cca02f0d, type: 3}
+      objectReference: {fileID: 5963569831587281548, guid: bbb606b4149c3e7428909f0b1a8371f2, type: 3}
     - target: {fileID: 1521535014144054891, guid: dd6fb696a5b02f94aa2b40210ce27122, type: 3}
       propertyPath: m_Name
       value: PlayerSpawn
