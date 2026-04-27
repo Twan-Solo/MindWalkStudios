@@ -19,6 +19,11 @@ public class PaintModeController : MonoBehaviour
     [Header("Primitive Prefabs")]
     [SerializeField] private List<PrimitivePrefabEntry> primitiveEntries;
 
+    // Paint mode visuals - added by Thomas, meant to show the paintbrush and palette when in paint mode, can delete if conflicts with other code
+    [Header("Paint Mode Visuals")]
+    [SerializeField] private GameObject player_paintbrush;
+    [SerializeField] private GameObject player_palette;
+
     // converts Inspector list into dictionary for quick lookup
     private Dictionary<PaintPrimitiveType, PrimitivePrefabEntry> primitiveMap;
     private Dictionary<PaintPrimitiveType, int> placedCounts;
@@ -47,6 +52,10 @@ public class PaintModeController : MonoBehaviour
         currentTypeIndex = 0;
         currentType = allTypes[currentTypeIndex];
         currentGhost = null;
+
+        // Paint mode visuals - added by Thomas, meant to show the paintbrush and palette when in paint mode, can delete if conflicts with other code
+        if (player_paintbrush != null) player_paintbrush.SetActive(false);
+        if (player_palette != null) player_palette.SetActive(false);
     }
 
     private void SpawnGhost()
@@ -84,6 +93,10 @@ public class PaintModeController : MonoBehaviour
         {
             // Toggle paint mode that lets the next part of the code can run
             inPaintMode = !inPaintMode;
+            // Paint mode visuals - added by Thomas, meant to show the paintbrush and palette when in paint mode, can delete if conflicts with other code
+            if (player_paintbrush != null) player_paintbrush.SetActive(inPaintMode);
+            if (player_palette != null) player_palette.SetActive(inPaintMode);
+
             if (inPaintMode)
             {
                 SpawnGhost();

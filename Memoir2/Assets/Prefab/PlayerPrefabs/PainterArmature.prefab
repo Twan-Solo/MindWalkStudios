@@ -4103,6 +4103,8 @@ MonoBehaviour:
   - type: 2
     prefab: {fileID: 6313524606571302771, guid: 37a9561bb2f1f4d4d9e6aaaf8ba42ce6, type: 3}
     ghostPrefab: {fileID: 4499865309153460026, guid: 5636abcddf4916047a60a8841106e6e7, type: 3}
+  player_paintbrush: {fileID: 4484194230685882328}
+  player_palette: {fileID: 7636525502644383960}
 --- !u!114 &5399280998416381592
 MonoBehaviour:
   m_ObjectHideFlags: 0
