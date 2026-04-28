@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Paint
+  m_Name: PuzzlePlaceholder
   m_Shader: {fileID: -6465566751694194690, guid: 96cd14fe8f2e5f34caed06a92fd6df7e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -61,7 +61,7 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 346.0757, g: 1.9588907, b: 286.46497, a: 1}
+    - _Color: {r: 94.4523, g: 86.07634, b: 93.10444, a: 1}
     - _Speed: {r: 0, g: 0.7, b: 0, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
