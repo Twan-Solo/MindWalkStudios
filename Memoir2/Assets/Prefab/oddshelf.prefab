@@ -51,7 +51,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: fed871a95f774ef4088be1377dd30d26, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 006100fdb7e00cc4e8bd6885370fbd5b, type: 2}
+      objectReference: {fileID: 2100000, guid: 7b20ff78b1aa8c04385b4c0b08acc701, type: 2}
     - target: {fileID: 919132149155446097, guid: fed871a95f774ef4088be1377dd30d26, type: 3}
       propertyPath: m_Name
       value: oddshelf
