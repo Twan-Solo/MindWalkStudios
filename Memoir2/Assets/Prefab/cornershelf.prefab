@@ -63,7 +63,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 35d33fc6833c66341942ca26ccfcb1b1, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6b9e30949ebec274b885677fa1d7fa42, type: 2}
+      objectReference: {fileID: 2100000, guid: 7b20ff78b1aa8c04385b4c0b08acc701, type: 2}
     - target: {fileID: 919132149155446097, guid: 35d33fc6833c66341942ca26ccfcb1b1, type: 3}
       propertyPath: m_Name
       value: cornershelf
