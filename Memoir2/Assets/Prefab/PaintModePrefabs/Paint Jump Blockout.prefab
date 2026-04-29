@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 2906094316502311423}
   - component: {fileID: -6827806938784564177}
   - component: {fileID: -2759557869228028166}
+  - component: {fileID: 690441592839788051}
   m_Layer: 0
   m_Name: Paint Jump Blockout
   m_TagString: Untagged
@@ -253,6 +254,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoopSoundOnContact
   sound: {fileID: 8300000, guid: 9343f892a64305e4d9ce2c00b61bf8ec, type: 3}
+--- !u!95 &690441592839788051
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43244732372569424}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4c22126eb32628e48b7fbc2ea08236ba, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6632079205734007697
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,7 +303,7 @@ Transform:
   m_GameObject: {fileID: 6632079205734007697}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0.63, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
