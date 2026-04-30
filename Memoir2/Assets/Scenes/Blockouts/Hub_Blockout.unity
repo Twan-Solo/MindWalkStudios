@@ -369,6 +369,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (18)
@@ -431,6 +435,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (13)
@@ -1001,6 +1009,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (4)
@@ -1220,6 +1232,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (19)
@@ -1431,6 +1447,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (9)
@@ -1649,6 +1669,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (5)
@@ -2246,6 +2270,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (6)
@@ -4423,6 +4451,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2125789659}
     m_Modifications:
+    - target: {fileID: -7898609793305535259, guid: 37a9561bb2f1f4d4d9e6aaaf8ba42ce6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2396090550442693072, guid: 37a9561bb2f1f4d4d9e6aaaf8ba42ce6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.25999
@@ -5381,6 +5413,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2906094316502311423, guid: 9d97fc725457e3047b05f579037ff4b1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5584,6 +5620,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (17)
@@ -6345,6 +6385,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (12)
@@ -6616,6 +6660,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (3)
@@ -7755,6 +7803,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2125789659}
     m_Modifications:
+    - target: {fileID: -7898609793305535259, guid: 37a9561bb2f1f4d4d9e6aaaf8ba42ce6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2396090550442693072, guid: 37a9561bb2f1f4d4d9e6aaaf8ba42ce6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.6418123
@@ -9669,6 +9721,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2125789659}
     m_Modifications:
+    - target: {fileID: -7898609793305535259, guid: 37a9561bb2f1f4d4d9e6aaaf8ba42ce6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2396090550442693072, guid: 37a9561bb2f1f4d4d9e6aaaf8ba42ce6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.2
@@ -10026,6 +10082,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2125789659}
     m_Modifications:
+    - target: {fileID: -7898609793305535259, guid: 37a9561bb2f1f4d4d9e6aaaf8ba42ce6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2396090550442693072, guid: 37a9561bb2f1f4d4d9e6aaaf8ba42ce6, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.48
@@ -11952,6 +12012,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (2)
@@ -12774,6 +12838,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (10)
@@ -12967,6 +13035,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (7)
@@ -13521,6 +13593,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (11)
@@ -13630,6 +13706,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2430507723347731139, guid: 9d97fc725457e3047b05f579037ff4b1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2906094316502311423, guid: 9d97fc725457e3047b05f579037ff4b1, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -14482,6 +14562,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (1)
@@ -14978,6 +15062,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (15)
@@ -16732,6 +16820,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (14)
@@ -16912,6 +17004,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2061592425}
     m_Modifications:
+    - target: {fileID: -1568598594158368818, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4704979629992406201, guid: 2054147d7517f9f408c5f00c0b191ab6, type: 3}
       propertyPath: m_Name
       value: Paint Platform Blockout (8)
