@@ -54,10 +54,40 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bb05ed7d0700b9a4eac05935f4e83e64, type: 2}
     - target: {fileID: 919132149155446097, guid: bba3a5183f18989478515b881c907af4, type: 3}
       propertyPath: m_Name
-      value: sm_pyramidblock
+      value: sm_pyramidblockPrefab
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bba3a5183f18989478515b881c907af4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8083422379938274386}
   m_SourcePrefab: {fileID: 100100000, guid: bba3a5183f18989478515b881c907af4, type: 3}
+--- !u!1 &7207975061943533148 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bba3a5183f18989478515b881c907af4, type: 3}
+  m_PrefabInstance: {fileID: 7549922971419771661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &8083422379938274386
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7207975061943533148}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1519995406327784691, guid: bba3a5183f18989478515b881c907af4, type: 3}
