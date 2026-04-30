@@ -84,12 +84,17 @@ public class PaintModeController : MonoBehaviour
         //Debug.Log("Paint Mode: " + inPaintMode);
         Keyboard keyboard = Keyboard.current;
         Mouse mouse = Mouse.current;
+        Gamepad gamepad = Gamepad.current;
         if (keyboard == null || mouse == null)
         {
             return;
         }
 
-        if (keyboard.qKey.wasPressedThisFrame)
+        // toggle paint mode: Q on keyboard, Y on gamepad
+        bool toggled = keyboard.qKey.wasPressedThisFrame ||
+                       (gamepad != null && gamepad.buttonNorth.wasPressedThisFrame);
+
+        if (toggled)
         {
             // Toggle paint mode that lets the next part of the code can run
             inPaintMode = !inPaintMode;
@@ -127,7 +132,23 @@ public class PaintModeController : MonoBehaviour
         {
             CycleShape(-1);
         }
-        if (mouse.leftButton.wasPressedThisFrame)
+
+        if (gamepad != null)
+        {
+            if (gamepad.rightShoulder.wasPressedThisFrame)
+            {
+                CycleShape(1);
+            }
+            else if (gamepad.leftShoulder.wasPressedThisFrame)
+            {
+                CycleShape(-1);
+            }
+        }
+
+        bool placed = mouse.leftButton.wasPressedThisFrame ||
+                      (gamepad != null && gamepad.leftTrigger.wasPressedThisFrame);
+
+        if (placed)
         {
             TryPlace();
         }
