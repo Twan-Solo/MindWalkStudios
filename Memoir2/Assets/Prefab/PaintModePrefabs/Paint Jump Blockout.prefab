@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32c86a1cf38a0304d842c313956e8b91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BouncyPlatform
-  bounceForce: 15
+  bounceForce: 10
 --- !u!114 &2906094316502311423
 MonoBehaviour:
   m_ObjectHideFlags: 0
