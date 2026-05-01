@@ -46,9 +46,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PaintModeHUDListener
   paintHUD: {fileID: 0}
   iconDisplay: {fileID: 0}
-  squareIcon: {fileID: 21300000, guid: e9bbd7edefab37342a755fcd6a306983, type: 3}
-  semicircleIcon: {fileID: 21300000, guid: e6b38b5c47e7cd14e9e4c7d54ea19bc7, type: 3}
-  triangleIcon: {fileID: 21300000, guid: c5e3415f6bb4b904a890526dca128a78, type: 3}
+  squareIcon: {fileID: 21300000, guid: bb9784e8f1cc83548a7b77436be13330, type: 3}
+  semicircleIcon: {fileID: 21300000, guid: ce7e137d5de84cf46874285543ba51ff, type: 3}
+  triangleIcon: {fileID: 21300000, guid: c3feb30f027faf94c9ff9b9f555935df, type: 3}
 --- !u!1 &5206475754507475421
 GameObject:
   m_ObjectHideFlags: 0
