@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c12371488b97a87488d40a25fbcde171, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlatformLifetime
-  lifetime: 5
+  lifetime: 100
 --- !u!82 &2452745788882096897
 AudioSource:
   m_ObjectHideFlags: 0
