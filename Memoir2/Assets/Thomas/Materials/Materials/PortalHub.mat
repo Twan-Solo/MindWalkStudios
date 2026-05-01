@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Portal1
+  m_Name: PortalHub
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -131,9 +131,9 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.8805031, g: 0.074759565, b: 0.077265754, a: 1}
-    - _Color: {r: 0.8805031, g: 0.074759535, b: 0.07726573, a: 1}
-    - _EmissionColor: {r: 0.75294244, g: 0.006512091, b: 0.00699541, a: 1}
+    - _BaseColor: {r: 0.02996313, g: 0.63522005, b: 0.041348755, a: 1}
+    - _Color: {r: 0.029963132, g: 0.63522, b: 0.041348733, a: 1}
+    - _EmissionColor: {r: 0.002428216, g: 0.36130688, b: 0.0033465356, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

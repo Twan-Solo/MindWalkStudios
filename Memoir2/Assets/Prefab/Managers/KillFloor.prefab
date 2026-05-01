@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8153540601630370217}
   - component: {fileID: 7676077520011392208}
   - component: {fileID: 8089497233067966239}
-  - component: {fileID: 4710935726450209437}
+  - component: {fileID: 8740003723407565307}
   m_Layer: 0
   m_Name: KillFloor
   m_TagString: Untagged
@@ -82,7 +82,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4710935726450209437
+--- !u!114 &8740003723407565307
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,7 +91,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6704815695701084604}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57b8458ea008e074e84bd0085215cea2, type: 3}
+  m_Script: {fileID: 11500000, guid: 7bd5d7ff51e88994697981873573b3a3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RespawnTrigger
-  damageAmount: 25
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnTriggerNoDamage
