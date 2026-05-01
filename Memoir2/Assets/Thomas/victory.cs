@@ -1,18 +1,28 @@
 using UnityEngine;
 
-public class VictoryTrigger : MonoBehaviour
+public class VictoryZoneTrigger : MonoBehaviour
 {
-    [SerializeField] private string playerTag = "Player";
-    [SerializeField] private string victoryTriggerName = "Victory";
-
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.CompareTag(playerTag)) return;
-
-        Animator animator = other.GetComponentInChildren<Animator>();
-        if (animator != null)
+        if (other.CompareTag("Player"))
         {
-            animator.SetTrigger(victoryTriggerName);
+            Animator anim = other.GetComponent<Animator>();
+            if (anim != null)
+            {
+                anim.SetBool("isInVictoryZone", true);
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Animator anim = other.GetComponent<Animator>();
+            if (anim != null)
+            {
+                anim.SetBool("isInVictoryZone", false);
+            }
         }
     }
 }
