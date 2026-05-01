@@ -13,6 +13,9 @@ EditorBuildSettings:
     guid: b90761b1307d04a459224d700fea788f
   - enabled: 1
     path: Assets/Scenes/Game Levels/Hub.unity
+    guid: 9ed681ae97610174e9127ee11a4122e9
+  - enabled: 0
+    path: Assets/Scenes/Game Levels/Hub_Pre.unity
     guid: b9a1b46f812c4e24599749bb197f3759
   - enabled: 0
     path: Assets/Scenes/TestLevels/DavisTest.unity
