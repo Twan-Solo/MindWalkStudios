@@ -113830,6 +113830,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 765209467085228919, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326079495183361907, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1384980221352796646, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2393653578663646181, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -29
@@ -113942,9 +113954,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4049022759793859019, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074935070066048800, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4093820936557245941, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 336
+      objectReference: {fileID: 0}
+    - target: {fileID: 4166478028729809333, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5564430769368882348, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7062965343273550190, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7214829056382349156, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_IsActive
@@ -113953,6 +113985,10 @@ PrefabInstance:
     - target: {fileID: 7943436542008628031, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: mainMenuScene
       value: Hub
+      objectReference: {fileID: 0}
+    - target: {fileID: 7968748647757140076, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
