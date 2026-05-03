@@ -630,7 +630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.44313726, g: 0.3372549, b: 0.12941177, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -808,7 +808,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 0.44313726, g: 0.3372549, b: 0.12941177, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1146,7 +1146,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: d5dd2cd935729fd47ad77a831f2c40dd, type: 3}
     - target: {fileID: 2100572918599424640, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2794506731685665129, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_LocalScale.x
@@ -1170,7 +1170,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: a00af055f65d73d44913268f4eec13af, type: 3}
     - target: {fileID: 3036128538597120829, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3047235016241324991, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_Name
@@ -1178,15 +1178,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3071008225134165462, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3084965540131632254, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3152862648233966403, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3412754360644684047, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_TargetGraphic
@@ -1278,7 +1278,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4459942010421527950, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4709218394663293025, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
@@ -1294,7 +1294,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: ad5ddffe39604614ea154766577caa2c, type: 3}
     - target: {fileID: 4779972502389227111, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4969320236142521677, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
@@ -1348,7 +1348,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5676717547253935973, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5797320314225523290, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1380,7 +1380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6814654346569608419, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7012969663614750031, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_Enabled
@@ -1392,7 +1392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7124455120591884141, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7259043887047220262, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1416,7 +1416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7756922756052291440, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7890835380541740886, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
@@ -1444,11 +1444,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8247081624013198417, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8299249422123717316, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8327380031494009903, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_Sprite
@@ -1456,7 +1456,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: a00af055f65d73d44913268f4eec13af, type: 3}
     - target: {fileID: 8327380031494009903, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8343634211620497003, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_TargetGraphic
@@ -1488,7 +1488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8610641620918570983, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8738817317925456377, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_Enabled
@@ -1600,7 +1600,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8991320232589271523, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9017577628400402845, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_Sprite
@@ -1608,11 +1608,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: a00af055f65d73d44913268f4eec13af, type: 3}
     - target: {fileID: 9017577628400402845, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9050203864791099254, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9174220909553686854, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
       propertyPath: m_TargetGraphic
