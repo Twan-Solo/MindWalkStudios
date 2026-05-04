@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 4665729245524240212}
   - component: {fileID: -1568598594158368818}
   - component: {fileID: 7428433218589830038}
-  - component: {fileID: -7900154639154307582}
   - component: {fileID: 6589257849797678688}
   m_Layer: 0
   m_Name: Paint Platform Blockout
@@ -140,7 +139,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 0cf3060d1f6497d41872c5d02a92d54d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -226,19 +225,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-7900154639154307582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4704979629992406201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f54438a35ca7d0944900831197f88f46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlaySoundOnContactFinish
-  sound: {fileID: 8300000, guid: 52f50cd898e62ee46a9c0494e6e8c2f1, type: 3}
 --- !u!95 &6589257849797678688
 Animator:
   serializedVersion: 7
