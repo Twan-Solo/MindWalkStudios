@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PickupStatic
   scoreValue: 1
   destroyAfterTrigger: 1
-  pickupSound: {fileID: 8300000, guid: 4fb6ece62146cdd498a47905aa97b28b, type: 3}
+  pickupSound: {fileID: 8300000, guid: f3cf0cf2742934b42bc86cd7a3d9715e, type: 3}
   volume: 1
 --- !u!65 &5524901409241306406
 BoxCollider:

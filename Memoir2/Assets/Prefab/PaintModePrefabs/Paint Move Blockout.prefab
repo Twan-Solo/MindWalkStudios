@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 763072063110739398}
   - component: {fileID: -7898609793305535259}
   - component: {fileID: 2452745788882096897}
-  - component: {fileID: -2115874156004538745}
   - component: {fileID: -3380064532220723469}
   m_Layer: 0
   m_Name: Paint Move Blockout
@@ -176,7 +175,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 0cf3060d1f6497d41872c5d02a92d54d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -262,19 +261,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-2115874156004538745
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6313524606571302771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f54438a35ca7d0944900831197f88f46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlaySoundOnContactFinish
-  sound: {fileID: 8300000, guid: 0c892346c4d62a1449491fea066575f8, type: 3}
 --- !u!95 &-3380064532220723469
 Animator:
   serializedVersion: 7
