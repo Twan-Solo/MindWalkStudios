@@ -18,6 +18,9 @@ public class PauseMenu : MonoBehaviour
     [Header("Audio")]
     public AudioClip buttonClickSound;
 
+    [Header("Controller Navigation")]
+    public GameObject firstSelectedButton;
+
     private bool isPaused = false;
 
     private void Start()
@@ -27,11 +30,15 @@ public class PauseMenu : MonoBehaviour
 
     private void Update()
     {
-        if (Keyboard.current.tabKey.wasPressedThisFrame)
+        bool tabPressed = Keyboard.current != null && Keyboard.current.tabKey.wasPressedThisFrame;
+        bool startPressed = Gamepad.current != null && Gamepad.current.startButton.wasPressedThisFrame;
+
+        if (tabPressed || startPressed)
         {
             if (isPaused) Resume();
             else Pause();
         }
+        
     }
 
     public void Resume()
@@ -58,6 +65,11 @@ public class PauseMenu : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        if (firstSelectedButton != null)
+        {
+            UnityEngine.EventSystems.EventSystem.current.SetSelectedGameObject(firstSelectedButton);
+        }
 
         EnablePlayerInput(false);
     }
