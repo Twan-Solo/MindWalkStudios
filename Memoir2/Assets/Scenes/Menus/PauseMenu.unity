@@ -822,6 +822,12 @@ MonoBehaviour:
   mainMenuScene: MainMenu
   fadeTransition: {fileID: 0}
   buttonClickSound: {fileID: 0}
+  firstSelectedButton: {fileID: 0}
+--- !u!1 &1038864038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6644701678104105836, guid: 7fa15a3d51824b946b88eb5e87e90c84, type: 3}
+  m_PrefabInstance: {fileID: 2525676860924958273}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1797237178
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,7 +1002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 1038864038}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &2099469805

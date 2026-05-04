@@ -175,6 +175,7 @@ MonoBehaviour:
   mainMenuScene: MainMenu
   fadeTransition: {fileID: 246024526110569182}
   buttonClickSound: {fileID: 0}
+  firstSelectedButton: {fileID: 49007254350305764}
 --- !u!1 &7214829056382349156
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +286,38 @@ PrefabInstance:
     - target: {fileID: 3364275788851136244, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
       propertyPath: m_SortingLayer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613660245874515858, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613660245874515858, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613660245874515858, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4952699004919315257}
+    - target: {fileID: 3613660245874515858, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032725762223269229, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
+      propertyPath: m_Colors.m_ColorMultiplier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032725762223269229, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032725762223269229, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032725762223269229, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6222784863422936363, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
       propertyPath: m_RaycastTarget
@@ -474,6 +507,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 4635780417266007580}
   m_SourcePrefab: {fileID: 100100000, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
+--- !u!1 &49007254350305764 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8009532892363298170, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
+  m_PrefabInstance: {fileID: 8037105008009317534}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &96965786684049954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7985433761947043516, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
@@ -515,7 +553,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6032725762223269229, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
   m_PrefabInstance: {fileID: 8037105008009317534}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 49007254350305764}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
