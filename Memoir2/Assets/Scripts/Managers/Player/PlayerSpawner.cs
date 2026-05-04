@@ -6,7 +6,7 @@ public class PlayerSpawner : MonoBehaviour
 {
     public GameObject playerPrefab;
 
-    private void Start()
+    private void Awake()
     {
         GameObject spawnPoint = GameObject.FindGameObjectWithTag("PlayerSpawn");
 

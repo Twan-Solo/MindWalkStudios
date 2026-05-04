@@ -172,7 +172,7 @@ namespace StarterAssets
         {
             _hasAnimator = TryGetComponent(out _animator);
             var device = _input;
-            Debug.Log($"Device: {_playerInput.currentControlScheme}");
+            //Debug.Log($"Device: {_playerInput.currentControlScheme}");
             if (_playerInput.currentControlScheme == "Gamepad")
             {
                 controllerSensitivityMultiplier = 15f;
