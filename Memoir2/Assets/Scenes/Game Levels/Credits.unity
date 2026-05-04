@@ -524,7 +524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 2127700373}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &843564547
@@ -591,7 +591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -673,7 +673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3955446949002771279, guid: d0c976b54a21b744fab2e1e3cab94276, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3965378813409532721, guid: d0c976b54a21b744fab2e1e3cab94276, type: 3}
       propertyPath: m_Sprite
@@ -681,11 +681,11 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: a00af055f65d73d44913268f4eec13af, type: 3}
     - target: {fileID: 3965378813409532721, guid: d0c976b54a21b744fab2e1e3cab94276, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4016028210114330074, guid: d0c976b54a21b744fab2e1e3cab94276, type: 3}
       propertyPath: m_RaycastTarget
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4318301980661160293, guid: d0c976b54a21b744fab2e1e3cab94276, type: 3}
       propertyPath: m_LocalScale.x
@@ -874,7 +874,7 @@ RectTransform:
   m_GameObject: {fileID: 2127700373}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2884147, y: 7.0508347, z: 2.2884147}
+  m_LocalScale: {x: 0.64438593, y: 1.9854176, z: 0.64438593}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 814570173}
@@ -882,7 +882,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -444}
+  m_AnchoredPosition: {x: 7.5911, y: -173}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2127700375
