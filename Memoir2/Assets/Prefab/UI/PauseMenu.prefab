@@ -175,7 +175,7 @@ MonoBehaviour:
   mainMenuScene: MainMenu
   fadeTransition: {fileID: 246024526110569182}
   buttonClickSound: {fileID: 0}
-  firstSelectedButton: {fileID: 0}
+  firstSelectedButton: {fileID: 300070191269901435}
 --- !u!1 &7214829056382349156
 GameObject:
   m_ObjectHideFlags: 0
@@ -604,6 +604,11 @@ PrefabInstance:
 --- !u!1 &96965786684049954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7985433761947043516, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
+  m_PrefabInstance: {fileID: 8037105008009317534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &300070191269901435 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7756210469382912229, guid: 8107efb034d42ec49b98df6d9e52e4fb, type: 3}
   m_PrefabInstance: {fileID: 8037105008009317534}
   m_PrefabAsset: {fileID: 0}
 --- !u!224 &971743187218844903 stripped

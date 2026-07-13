@@ -2475,6 +2475,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6049884820279044078, guid: a9deecf4d641648429820af70dd189d6, type: 3}
   m_PrefabInstance: {fileID: 140295866}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &147496563 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 300070191269901435, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+  m_PrefabInstance: {fileID: 1911488499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &149204009
 GameObject:
   m_ObjectHideFlags: 0
@@ -19058,7 +19063,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7018423903542967696, guid: 28b3879dda13e7341a6afebc67dd7475, type: 3}
       propertyPath: m_Volume
-      value: 0.25
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 7018423903542967696, guid: 28b3879dda13e7341a6afebc67dd7475, type: 3}
       propertyPath: m_Resource
@@ -24262,6 +24267,10 @@ PrefabInstance:
       propertyPath: m_RaycastTarget
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7943436542008628031, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
+      propertyPath: firstSelectedButton
+      value: 
+      objectReference: {fileID: 147496563}
     - target: {fileID: 7968748647757140076, guid: 05841b1d967e3d7489f2b2c388d53a19, type: 3}
       propertyPath: m_RaycastTarget
       value: 1
